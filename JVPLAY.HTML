@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel=”stylesheet” href=”https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css”rel=”nofollow” integrity=”sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm” crossorigin=”anonymous”>
+</head>
+<body>
+  <div class="container">
+  <h1>Without Bootstrap</h1>
+  <div class="rows">
+    <div class="Column">
+      <div class="box">Column 1</div>
+    </div>
+    <div class="Column">
+      <div class="box">Column 2</div>
+    </div>
+    <div class="Column">
+      <div class="box">Column 3</div>
+    </div>
+  </div>
+  <a href="#" class="button">Basic Button</a>
+
+  <p class="hidden-xs">This text is hidden on extra-small screens.</p>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+
+<style>
+   /* Basic CSS for layout and styling */
+   body {
+   font-family: Arial, sans-serif;
+   }
+   .container {
+   width: 80%;
+   margin: 0 auto;
+   padding: 20px;
+   text-align: center;
+   }
+   .row {
+   display: flex;
+   flex-wrap: wrap;
+   margin: -10px;
+   }
+   .column {
+   flex: 33.33%;
+   padding: 10px;
+   }
+   .box {
+   padding: 20px;
+   background-color: #007bff;
+   color: white;
+   margin-bottom: 20px;
+   }
+   .button {
+   padding: 10px 20px;
+   background-color: #28a745;
+   color: white;
+   text-decoration: none;
+   border-radius: 5px;
+   }
+   .hidden-xs {
+   display: none;
+   }
+   @media (min-width: 600px) {
+   .hidden-xs {
+  display: block;
+  }
+  }
+  </style>
+
+</html>
