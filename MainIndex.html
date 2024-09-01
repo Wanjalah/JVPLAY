@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SCHOOL PROJECT</title>
+</head>
+<style>
+    body{margin: 0;}
+    .navbar {
+        overflow: hidden;
+        background-color: aqua;
+        position: relative;
+        top: 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 40px;
+        
+    }
+    .navbar-left {
+        display: flex;
+        align-items: center;
+    }
+    .navbar-center {
+        display: flex;
+        justify-content: center;
+        flex-grow: 1;
+    }
+    .navbar-right {
+        display: flex;
+        align-items: center;
+    }
+    .navbar-center>a {
+      margin: 0 20px;
+    }
+    .navbar>a {
+        display: block;
+        color: blue;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 10px;
+        text-align: center;
+    }
+    .navbar a:hover {
+        background: #ddd;
+        color: black;
+    }
+</style>
+<body>
+    <div class="navbar">
+        <div class="navbar-left">
+            <a href="Medilop" style="font-size: 20px;">
+                <i class="bi bi-h-circle-fill">&#xF7FA;</i>
+                <strong>Medi</strong>lop
+            </a>
+        </div>
+        <div class="navbar-center">
+            <a href="#home" style="font-weight: bold;">Home</a>
+            <a href="#Services">Services</a>
+            <a href="#Facility">Facility</a>
+            <a href="#About">About us</a>
+        </div>
+        <div class="navbar-right">
+            <a href="login" style="text-align: right;">
+                Log In
+                <button style="background-color: black; color: #ddd;">Sign Up</button>
+            </a>
+        </div>
+    </div>
+    <h1>We Care About Your Health</h1>
+</body>
+</html>
